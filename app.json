@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/Card/card"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "blue",
+    "navigationBarTitleText": "我的智能名片",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

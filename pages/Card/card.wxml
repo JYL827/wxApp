@@ -1,0 +1,6 @@
+<!--pages/Card/card.wxml-->
+<view class="card">
+    <view class="card-wrapper">
+        
+    </view>
+</view>
