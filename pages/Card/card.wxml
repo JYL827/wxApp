@@ -1,6 +1,110 @@
 <!--pages/Card/card.wxml-->
 <view class="card">
     <view class="card-wrapper">
-        
+        <view class="user-info">
+            <view class="user-info_pic">
+                <image class="user" src="./image/user.jpg" />
+            </view>
+            <view class="user-info_desc">
+                <view class="name">
+                    <view class="na">
+                        <p>Alice</p>
+                    </view>
+                    <view class="pic">
+                        <image class="sexw" src="./image/girl.png" />
+                    </view>
+                </view>
+                <view class="word">
+                    <view class="word-w">
+                        <view class="word-w_hobby">
+                            <view class="p1">
+                                <p class="p11">开朗</p>
+                            </view>
+                            <view class="p2">
+                                <p class="p2">自由职业</p>
+                            </view>
+                            <view class="p3">
+                                <p class="p3">爱折腾</p>
+                            </view>
+                        </view>
+                        <view class="word-w_loca">
+                            <view class="l1">
+                                <view class="l11">
+                                    <image class="location" src="./image/location.png" />
+                                </view>
+                                <view class="pb">
+                                    <p>深圳市</p>
+                                </view>
+                            </view>
+                            <view class="l2">
+                                <view class="l22">
+                                    <image class="inter" src="./image/hulianwang.png" />
+                                </view>
+                                <view class="hlw">
+                                    <p>互联网</p>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="second">
+                            <view class="j1">
+                                <view class="j11">
+                                    <image class="aixin" src="./image/aixin.png" />
+                                </view>
+                                <view class="by">
+                                    <p>角色扮演</p>
+                                </view>
+                            </view>
+                            <view class="w1">
+                                <view class="w11">
+                                    <image class="wechat" src="./image/wechat.png" />
+                                </view>
+                                <view class="wx">
+                                    <p>luoqi741</p>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="third">
+                            <view class="d1">
+                                <view class="d11">
+                                    <image class="tel" src="./image/tel.png" />
+                                </view>
+                                <view class="dh">
+                                    <p>15017933191</p>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="word-pic">
+                        <view class="word-pic_weima">
+                            <image class="ewm" src="./image/ewm.png">
+
+                            </image>
+                        </view>
+                        <view class="word-pic_hb">
+                            <image class="hb" src="./image/envelope.png">
+
+                            </image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="look">
+            <view class="pic0">
+                <view class="pic1">
+
+                </view>
+                <view class="pic">
+
+                </view>
+                <view class="pic3">
+
+                </view>
+                <view class="text">
+                    <text class="t0"></text>
+                </view>
+            </view>
+            
+        </view>
     </view>
 </view>
