@@ -1,277 +1,464 @@
-/* pages/Card/card.wxss */
 .card{
     width: 100vw;
     height: 100vh;
+}
+/* 滚轮背景 */
+.card-wrapper{
+    width: 100%;
+    height: 100%;
     background: #f5fafe;
 }
-.card-wrapper{
-    width: 375px;
-}
+/* 用户信息 */
 .user-info{
+    width: 340px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    /* box-sizing: border-box; */
+    height: 345px;
+    /* overflow: hidden; */
     /* border: 1px solid #aaa; */
-    padding: 15px;
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 12px 12px 12px 12px; 
     position: relative;
-    /* box-shadow: 2px 2px 5px #aaa; */
-    /* background: #fff; */
-    /* font-size: 0; */
-    
 }
 .user-info_pic{
-    width: 100%;
+    width: 345px;
+    height: 200px;
+    margin-bottom: 10px;
 }
 .user-info_pic .user{
     width: 100%;
-    height: 150px;
-    border-radius: 5px;
+    height: 100%;
 }
-.user-info_desc{
-    position: absolute;
-    width: 100%;
-    left: 15px;
-    overflow: hidden;
+.view0{
+    width: 65px;
+    height: 12px;
+    position: relative;
+    /* display: inline-block; */
+    margin-left: 12px;
+    margin-bottom: 11px;
+    font-size: 12px;
 }
 .name{
-    width: 375px;
-    display: inline-block;
-    position: relative;
-}
-.na{
-    width: 32px;
-    height: 12px;
     position: absolute;
-    bottom: 0;
+    top: 0;
+    height: 12px;
+    width: 34px;
 }
-.na p{
-    width: 100%;
-    height: 100%;
-}
-.pic{
+.sex{
+    position: absolute;
     width: 12px;
     height: 12px;
+    left: 36px;
+}
+.sexp{
+    width: 12px;
+    height: 12px;
+    /* position: absolute; */
+    top: 0;
+}
+.view1{
+    width: 164px;
+    height: 21px;
+    /* 有用 */
+    /* display: flex; */
+    position: relative;
+    margin-left: 12px;
+    margin-bottom: 11px;
+    font-size: 12px;    
+    
+}
+.t1{
     position: absolute;
-    bottom: 0;
-    left: 45px;
-}
-.sexw{
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-}
-.word{
-    margin-top: 10px;
-    width: 100%;
-    display: inline-block;
-    position: relative;
-}
-.word-w_hobby{
-    width: 70%;
-    height: 25px;
-    position: relative;
-    font-size: 12px;
-}
-.p1{
-    width: 35px;
+    left: 0;
+    width: 42px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
     background: hsl(216, 66%, 64%);
-    border-radius: 3px;
-    text-align: center;
-    position: absolute;
-
+    border-radius: 5px;
 }
-.p2{
-    width: 65px;
+.t2{
+    position: absolute;
+    left: 46px;
+    width: 62px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
     background: rgb(68, 201, 63);
-    border-radius: 3px;
-    text-align: center;
-    /* line-height: 25px; */
-    position: absolute;
-    left: 20px;
+    border-radius: 5px;
 }
-.p3{
-    width: 50px;
+.t3{
+    position: absolute;
+    left: 112px;
+    width: 54px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
     background: rgb(231, 141, 67);
-    border-radius: 3px;
-    text-align: center;
+    border-radius: 5px;
+}
+.view2{
+    width: 190px;
+    margin-left: 14px;
+    margin-bottom: 11px;
+    height: 13px;
+    position: relative;
+}
+.loc-pic{
+    width: 10px;
+    height: 13px;
     position: absolute;
-    left: 56px;
 }
-.word-w_loca{
-    width: 100%;
-    height: 15px;
-    display: inline-block;
-    position: relative;
-}
-.l1{
-    width: 50px;
-    height: 15px;
-    display: inline-block;
-    position: relative;
-}
-.l11{
-    width: 12px;
-    height: 12px;
-    position: relative;
-}
-.location{
-    width: 100%;
-    height: 100%;
+.loc-img{
+    width: 10px;
+    height: 13px;
     position: absolute;  
     left: 0;
-    top: 0;
+    bottom: 0;
 }
-.pb{
+.shenzhen{
     position: absolute;
     width: 40px;
     height: 13px;
-    left: 17px;
+    left: 18px;
     top: 0;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 13px;
 }
-.l2{
-    width: 50px;
-    height: 15px;
-    display: inline-block;
-    position: relative;
+.in-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+    left: 134px;
 }
-.l22{
-    width: 12px;
-    height: 12px;
-    position: relative;
-}
-.inter{
-    width: 100%;
-    height: 100%;
+.in-img{
+    width: 10px;
+    height: 13px;
     position: absolute;  
-    left: 70px;
-    top: 0;
+    left: 0;
+    bottom: 0;
 }
-.hlw{
+.internet{
     position: absolute;
     width: 40px;
     height: 13px;
-    left: 88px;
+    left: 150px;
     top: 0;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 13px;
 }
-.second{
-    width: 100%;
-    height: 15px;
-    display: inline-block;
-    position: relative;
-}
-.j1{
-    width: 50px;
-    height: 15px;
-    display: inline-block;
-    position: relative;
-}
-.j11{
-    width: 12px;
-    height: 12px;
-    position: relative;
-}
-.aixin{
-    width: 100%;
-    height: 100%;
-    position: absolute;  
-    left: px;
-    top: 0;
-}
-.by{
-    position: absolute;
-    width: 50px;
+.view3{
+    width: 190px;
+    margin-left: 14px;
+    margin-bottom: 11px;
     height: 13px;
-    left:17px;
-    top: 0;
-    font-size: 12px;
-}
-.w1{
-    width: 50px;
-    height: 15px;
-    display: inline-block;
     position: relative;
 }
-.w11{
-    width: 12px;
-    height: 12px;
-    position: relative;
+.heart-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
 }
-.wechat{
-    width: 100%;
-    height: 100%;
+.heart-img{
+    width: 10px;
+    height: 13px;
     position: absolute;  
-    left: 70px;
-    top: 0;
+    left: 0;
+    bottom: 0;
 }
-.wx{
+.jueseby{
+    position: absolute;
+    width: 59px;
+    height: 13px;
+    left: 18px;
+    top: 0;
+    font-size: 13px;
+    line-height: 13px;
+}
+.wechat-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+    left: 134px;
+}
+.wechat-img{
+    width: 10px;
+    height: 13px;
+    position: absolute;  
+    left: 0;
+    bottom: 0;
+}
+.wechat-name{
     position: absolute;
     width: 40px;
     height: 13px;
-    left: 88px;
+    left: 150px;
     top: 0;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 13px;
 }
-.d1{
-    width: 50px;
-    height: 15px;
-    display: inline-block;
-    position: relative;
-}
-.d11{
-    width: 12px;
-    height: 12px;
-    position: relative;
-}
-.tel{
-    width: 100%;
-    height: 100%;
-    position: absolute;  
-    left: 0px;
-    top: 0;
-}
-.dh{
-    position: absolute;
-    width: 50px;
+.view4{
+    width: 190px;
+    margin-left: 14px;
+    margin-bottom: 11px;
     height: 13px;
-    left: 17px;
-    top: 0;
-    font-size: 12px;
+    position: relative;
 }
-.word-pic{
-    width: 100px;
-    height: 100px;
+.tel-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+}
+.tel-img{
+    width: 10px;
+    height: 13px;
+    position: absolute;  
+    left: 0;
+    bottom: 0;
+}
+.telephone{
+    position: absolute;
+    width: 59px;
+    height: 13px;
+    left: 18px;
+    top: 0;
+    font-size: 13px;
+    line-height: 13px;
+}
+.pic-container{
+    width: 60px;
+    height: 120px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -6px;
 }
-.word-pic_weima{
-    width: 33px;
-    height: 33px;
+.ewm-pic{
+    width: 36px;
+    height: 36px;
     position: absolute;
     top: 0;
-    right: 45px;
+    left: 15px;
 }
-.ewm{
+.ewm-img{
     width: 100%;
     height: 100%;
+
 }
-.hb{
-    width: 100%;
-    height: 100%;
-}
-.word-pic_hb{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    right: 45px;
-}
-.look{
-    width: 375px;
-    height: 40px;
-    position: relative;
-}
-.text{
+.hb-pic{
+    width: 57px;
+    height: 62px;
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: -4px;
+}
+.hb-img{
+    width: 100%;
+    height: 100%;
+}
+.user-brow{
+    width: 340px;
+    height: 52px;
+    /* margin-top: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    position: relative;
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 10px; 
+}
+.pic-1{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
+.pic-2{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left: 55px;
+    top: 8px;
+}
+.pic-3{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left: 95px;
+    top: 8px;
+}
+.touxiang{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%; 
+}
+.commit{
+    width: 164px;
+    height: 14px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    top: 19px;
+    left: 150px; 
+}
+.arrow{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 17px;
+    left: 320px;
+}
+.arrow-img{
+    width: 100%;
+    height: 100%;
+}
+.provide{
+    width: 340px;
+    height: 86px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+}
+.need{
+    width: 340px;
+    height: 86px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+}
+.tit1{
+    width: 200px;
+    height: 15px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-left: 2px solid blue;
+    line-height: 15px
+    
+}
+.tit2{
+    width: 200px;
+    height: 15px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-left: 2px solid green;
+    line-height: 15px
+    
+}
+.tit3{
+    width: 200px;
+    height: 15px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-left: 2px solid orange;
+    line-height: 15px
+    
+}
+.con{
+    width: 323px;
+    height: 30px;
+    position: absolute;
+    bottom: 12px;
+    font-size: 11px;
+    left: 12px;
+}
+
+.ad{
+    width: 340px;
+    height: 91px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.design{
+    width: 100%;
+    height: 100%;
+}
+.per{
+    width: 340px;
+    height: 163px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 21px;
+    border-radius: 10px;
+    position: relative;
+}
+.per-pic1{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    left: 11px;
+    bottom: 16px;
+}
+.per-pic2{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    left: 119px;
+    bottom: 16px;
+}
+.per-pic3{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    left: 228px;
+    bottom: 16px;
+}
+.button{
+    width: 338px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 21px;
+    position: relative;
+}
+.edi{
+    width: 165px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 50px;
+}
+.bianji-pic{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 42px;
+    top: 15px;
+}
+.share{
+    width: 165px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: rgb(84, 156, 223);
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 50px;
 }
