@@ -1,12 +1,12 @@
 {
-  "pages": [
+  "pages":[
     "pages/hongbao/hongbao"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#f00000",
     "navigationBarTitleText": "红包",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle":"black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
