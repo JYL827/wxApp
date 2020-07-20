@@ -59,7 +59,7 @@
 .interactive{
     width: 375px;
     height: 30px;
-    font-size: 18px;
+    font-size: 16px;
     color: #48a6fd;
     position: absolute;
     top: 220px;
@@ -68,7 +68,7 @@
 .record{
     display: inline-block;
     position: absolute;
-    left: 10px;
+    left: 12px;
 }
 .withdrawal{
     display: inline-block;
