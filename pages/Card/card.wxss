@@ -1,0 +1,277 @@
+/* pages/Card/card.wxss */
+.card{
+    width: 100vw;
+    height: 100vh;
+    background: #f5fafe;
+}
+.card-wrapper{
+    width: 375px;
+}
+.user-info{
+    /* border: 1px solid #aaa; */
+    padding: 15px;
+    position: relative;
+    /* box-shadow: 2px 2px 5px #aaa; */
+    /* background: #fff; */
+    /* font-size: 0; */
+    
+}
+.user-info_pic{
+    width: 100%;
+}
+.user-info_pic .user{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+.user-info_desc{
+    position: absolute;
+    width: 100%;
+    left: 15px;
+    overflow: hidden;
+}
+.name{
+    width: 375px;
+    display: inline-block;
+    position: relative;
+}
+.na{
+    width: 32px;
+    height: 12px;
+    position: absolute;
+    bottom: 0;
+}
+.na p{
+    width: 100%;
+    height: 100%;
+}
+.pic{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+}
+.sexw{
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+}
+.word{
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.word-w_hobby{
+    width: 70%;
+    height: 25px;
+    position: relative;
+    font-size: 12px;
+}
+.p1{
+    width: 35px;
+    background: hsl(216, 66%, 64%);
+    border-radius: 3px;
+    text-align: center;
+    position: absolute;
+
+}
+.p2{
+    width: 65px;
+    background: rgb(68, 201, 63);
+    border-radius: 3px;
+    text-align: center;
+    /* line-height: 25px; */
+    position: absolute;
+    left: 20px;
+}
+.p3{
+    width: 50px;
+    background: rgb(231, 141, 67);
+    border-radius: 3px;
+    text-align: center;
+    position: absolute;
+    left: 56px;
+}
+.word-w_loca{
+    width: 100%;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
+.l1{
+    width: 50px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
+.l11{
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+.location{
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    left: 0;
+    top: 0;
+}
+.pb{
+    position: absolute;
+    width: 40px;
+    height: 13px;
+    left: 17px;
+    top: 0;
+    font-size: 12px;
+}
+.l2{
+    width: 50px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
+.l22{
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+.inter{
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    left: 70px;
+    top: 0;
+}
+.hlw{
+    position: absolute;
+    width: 40px;
+    height: 13px;
+    left: 88px;
+    top: 0;
+    font-size: 12px;
+}
+.second{
+    width: 100%;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
+.j1{
+    width: 50px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
+.j11{
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+.aixin{
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    left: px;
+    top: 0;
+}
+.by{
+    position: absolute;
+    width: 50px;
+    height: 13px;
+    left:17px;
+    top: 0;
+    font-size: 12px;
+}
+.w1{
+    width: 50px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
+.w11{
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+.wechat{
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    left: 70px;
+    top: 0;
+}
+.wx{
+    position: absolute;
+    width: 40px;
+    height: 13px;
+    left: 88px;
+    top: 0;
+    font-size: 12px;
+}
+.d1{
+    width: 50px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
+.d11{
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+.tel{
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    left: 0px;
+    top: 0;
+}
+.dh{
+    position: absolute;
+    width: 50px;
+    height: 13px;
+    left: 17px;
+    top: 0;
+    font-size: 12px;
+}
+.word-pic{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.word-pic_weima{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 0;
+    right: 45px;
+}
+.ewm{
+    width: 100%;
+    height: 100%;
+}
+.hb{
+    width: 100%;
+    height: 100%;
+}
+.word-pic_hb{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+}
+.look{
+    width: 375px;
+    height: 40px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
