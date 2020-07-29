@@ -72,7 +72,6 @@
 }
 .withdrawal{
     display: inline-block;
-    text-align: center;
 }
 .forward{
     display: inline-block;
@@ -94,14 +93,11 @@
 
     color: #a2a2a2;
     border-bottom: 1px solid #aaa;
-    
 }
 .recipient{
     margin: 10px;
     width: 100%;
     border-bottom: 1px solid #aaa;
-
-
 }
 .break {
     color: #3f3f3f;
